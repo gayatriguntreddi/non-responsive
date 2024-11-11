@@ -1,0 +1,19 @@
+.sidebarlayout{
+    display: flex;
+
+}
+.sidebar{
+ background-color: black;
+ color: aliceblue;
+}
+.maincontent{
+    background-color: brown;
+    color: aliceblue;
+}
+  @media (max-width: 768px){
+    .sidebarlayout{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
