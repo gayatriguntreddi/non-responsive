@@ -1,19 +1,27 @@
-.sidebarlayout{
-    display: flex;
+.sidebar-layout {
+  display: flex;
+  height: 50vh;
 
 }
-.sidebar{
- background-color: black;
- color: aliceblue;
-}
-.maincontent{
-    background-color: brown;
-    color: aliceblue;
-}
-  @media (max-width: 768px){
-    .sidebarlayout{
-        display: flex;
-        flex-direction: column;
-    }
-  }
 
+.sidebar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 1px;
+}
+.main-content{
+  background-color: #b33232;
+  color: white;
+  padding: 20px;
+  margin: 1px;
+}
+
+ 
+@media (max-width: 768px){
+.sidebar-layout{
+  display: flex;
+  flex-direction: column;
+}
+
+}
